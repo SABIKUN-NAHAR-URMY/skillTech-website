@@ -5,7 +5,18 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 /* Changes position of caption*/
- /* .carousel-caption {
-    top:40%;
-     bottom: auto; 
-}  */
+@media only screen and (max-width: 576px) {
+    .slide-caption {
+      margin-top: 100px;
+    }
+    .slide-caption h2{
+        font-size: 15px;
+    }
+    .slide-caption p{
+        font-size: 10px;
+    }
+    .slide-caption button{
+        font-size: 10px;
+        padding: 0;
+    }
+  }
