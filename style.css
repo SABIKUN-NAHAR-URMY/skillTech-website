@@ -4,7 +4,7 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-/* Changes position of caption*/
+/* for small device*/
 @media only screen and (max-width: 576px) {
     .slide-caption {
       margin-top: 100px;
